@@ -1,0 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
+
+namespace Excercise1
+{
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class Exc1 : ContentPage
+    {
+        public Exc1()
+        {
+            InitializeComponent();
+        }
+    }
+}
