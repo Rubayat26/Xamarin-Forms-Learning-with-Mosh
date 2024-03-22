@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:EmbedImageXml"
+             x:Class="EmbedImageXml.ImagePage">
+    <ContentPage.Content>
+        <Image  Source="{local:EmbeddedImage ResourceId=EmbedImageXml.Images.background.jpg}" x:Name="image" Aspect="AspectFit"/>
+    </ContentPage.Content>
+</ContentPage>
+    
+    
+<!--Here when embedding image directly in Xaml we are calling the 
+    EmbeddedImage class here as the Image Source, With the help of ResourceId we are making it
+    dynamic-->
